@@ -1,15 +1,15 @@
 [project]
-name = 'fungible-token'
-description = 'Demonstrates a basic fungible token that conforms to the SIP-010 FT standard'
+name = 'stackycoin'
+description = 'stackycoin del bueno'
 authors = []
 telemetry = true
 cache_dir = './.cache'
 
 [[project.requirements]]
-contract_id = 'SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard'
+contract_id = 'SP1AJVMEGSMD6QCSZ1669Z5G90GEHVK2MEM7J0AHH.stackycoin'
 
-[contracts.fungible-token]
-path = 'contracts/fungible-token.clar'
+[contracts.stackycoin]
+path = 'contracts/stackycoin.clar'
 clarity_version = 4
 epoch = "latest"
 
